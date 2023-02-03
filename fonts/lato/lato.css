@@ -1,0 +1,51 @@
+/** Light: 300 **/
+@font-face {
+    font-family: "Lato";
+    font-weight: 300;
+    src: url("lato-light-webfont.woff2") format("woff2"), url("lato-light-webfont.woff") format("woff");
+}
+/** Regular: 400 **/
+@font-face {
+    font-family: "Lato";
+    font-weight: 400;
+    src: url("lato-regular-webfont.woff2") format("woff2"), url("lato-regular-webfont.woff") format("woff");
+}
+/** Bold: 700 **/
+@font-face {
+    font-family: "Lato";
+    font-weight: 700;
+    src: url("lato-bold-webfont.woff2") format("woff2"), url("lato-bold-webfont.woff") format("woff");
+}
+
+:root {
+    --fallback_serif: serif;
+    --fallback_sans: sans-serif;
+    --font_main: "Lato";
+    --family_main: var(--font_main), var(--fallback_sans);
+
+    --fontWeight_bold: 700;
+    --fontWeight_regular: 400;
+    --fontWeight_light: 300;
+}
+/** 
+    For demo purposes, font declarations are only added to specific elements (excluding body).
+**/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--family_main);
+    font-weight: var(--fontWeight_bold);
+}
+
+li {
+    font-family: var(--family_main);
+    font-weight: var(--fontWeight_regular);
+}
+
+p {
+    font-family: var(--family_main);
+    font-weight: var(--fontWeight_light);
+}
