@@ -18,7 +18,7 @@
 :root {
     --fallback_serif: serif;
     --fallback_sans: sans-serif;
-    --font_main: "Roboto";
+    --font_main: "Lexend Exa";
     --family_main: var(--font_main), var(--fallback_sans);
     --fontWeight_medium: 500;
     --fontWeight_regular: 400;
