@@ -24,7 +24,6 @@
     font-weight: 500;
     src: url("roboto-medium-webfont.woff2") format("woff2"), url("roboto-medium-webfont.woff") format("woff");
 }
-
 /** 
     For demo purposes, font declarations are only added to specific elements (excluding body).
 **/
