@@ -1,3 +1,12 @@
+:root {
+    --fallback_serif: serif;
+    --fallback_sans: sans-serif;
+    --font_main: "Open Sans";
+    --family_main: var(--font_main), var(--fallback_sans);
+    --fontWeight_medium: 500;
+    --fontWeight_regular: 400;
+    --fontWeight_light: 300;
+}
 /** Light: 300 **/
 @font-face {
     font-family: "Open Sans";
@@ -15,16 +24,6 @@
     font-family: "Open Sans";
     font-weight: 500;
     src: url("OpenSans-Medium.woff2") format("woff2"), url("OpenSans-Medium.woff") format("woff");
-}
-
-:root {
-    --fallback_serif: serif;
-    --fallback_sans: sans-serif;
-    --font_main: "Open Sans";
-    --family_main: var(--font_main), var(--fallback_sans);
-    --fontWeight_medium: 500;
-    --fontWeight_regular: 400;
-    --fontWeight_light: 300;
 }
 /** 
     For demo purposes, font declarations are only added to specific elements (excluding body).

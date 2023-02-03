@@ -1,3 +1,13 @@
+:root {
+    --fallback_serif: serif;
+    --fallback_sans: sans-serif;
+    --font_main: "Lato";
+    --family_main: var(--font_main), var(--fallback_sans);
+
+    --fontWeight_bold: 700;
+    --fontWeight_regular: 400;
+    --fontWeight_light: 300;
+}
 /** Light: 300 **/
 @font-face {
     font-family: "Lato";
@@ -15,17 +25,6 @@
     font-family: "Lato";
     font-weight: 700;
     src: url("lato-bold-webfont.woff2") format("woff2"), url("lato-bold-webfont.woff") format("woff");
-}
-
-:root {
-    --fallback_serif: serif;
-    --fallback_sans: sans-serif;
-    --font_main: "Lato";
-    --family_main: var(--font_main), var(--fallback_sans);
-
-    --fontWeight_bold: 700;
-    --fontWeight_regular: 400;
-    --fontWeight_light: 300;
 }
 /** 
     For demo purposes, font declarations are only added to specific elements (excluding body).
