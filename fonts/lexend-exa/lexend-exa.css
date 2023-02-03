@@ -46,3 +46,10 @@ p {
     font-family: var(--family_main);
     font-weight: var(--fontWeight_light);
 }
+
+p.large,
+h2.small {
+    font-size: 40px;
+    font-family: var(--family_main);
+    font-weight: var(--fontWeight_light);
+}

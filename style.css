@@ -36,6 +36,9 @@ li a {
     text-transform: uppercase;
 }
 .page-wrapper {
+    max-width: 102.4rem;
+    margin-inline: auto;
+
     min-height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;

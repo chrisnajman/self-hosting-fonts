@@ -8,7 +8,7 @@ permalink: /index.html
 
 ## Description
 
-- xx
+- Coming soon...
 
 ## HTML
 
