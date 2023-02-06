@@ -94,7 +94,7 @@ I was advised to preload the fonts in the head of the html page. This is suppose
   - _The resource at “https://chrisnajman.github.io/self-hosting-fonts/fonts/lato/lato-light-webfont.woff2” preloaded with link preload was not used within a few seconds. Make sure all attributes of the preload tag are set correctly._
   - _The resource at “https://chrisnajman.github.io/self-hosting-fonts/fonts/lato/lato-regular-webfont.woff2” preloaded with link preload was not used within a few seconds. Make sure all attributes of the preload tag are set correctly._
   - _The resource at “https://chrisnajman.github.io/self-hosting-fonts/fonts/lato/lato-bold-webfont.woff2” preloaded with link preload was not used within a few seconds. Make sure all attributes of the preload tag are set correctly._
-    Discussion and searching on Stack Overflow has not yielded an understandable answer. However, [I posted a question myself on Stack Overflow](https://stackoverflow.com/questions/75351782/why-does-firefox-show-font-preload-warning-the-resource-at-url-preloaded-with) and if it gets answered, I'll update this README.md with any new information.
+  - Discussion and searching on Stack Overflow has not yielded an understandable answer. However, [I posted a question myself on Stack Overflow](https://stackoverflow.com/questions/75351782/why-does-firefox-show-font-preload-warning-the-resource-at-url-preloaded-with) and if it gets answered, I'll update this README.md with any new information.
 - Microsoft Edge
 
 ## Acknowledgements
